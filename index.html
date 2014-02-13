@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kate Dee</title>
+	<link rel="shortcut icon" href="img/katedee.ico">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lily+Script+One|Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!--Struggled with properly layering/z-indexing my CSS animation. Need help!-->
+	<input type="checkbox" id="toggle" name="toggle">
+	<div class="sidebar">
+		<h1>Kate Dee</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="comicsillustration.html">Comics &#38; Illustration</a></li>
+			<li><a href="#">Web Development</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</div><!--sidebar-->
+	<div class="wrapper clearfix">
+		<label for="toggle">☰ Menu</label>
+		<!--DROPDOWN
+		<div class="header">
+			<ul>
+						<li><a href="index.html">Home</a>
+							<ul>
+								<li><a href="index.html#contact">Contact</a></li>
+							</ul>
+						</li>
+						<li><a href="comicsillustration.html">Comics &#38; Illo</a>
+							<ul>
+								<li><a href="#">Comics</a></li>
+								<li><a href="#">Illustration</a></li>
+								<li><a href="#">Other</a></li>
+							</ul>
+						</li>
+						<li><a href="webDev.html">Web Dev</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div> END OF DROPDOWN-->
+				<div class="fashion"><img src="img/brownstone.png" class="fashion"></div>
+				<div class="hits">
+					<a href="comicsillustration.html"><div class="comics toolTip">
+						<div class="window1 window"></div>
+						<div class="window2 window"></div>
+						<div class="window3 window"></div>
+						<div class="window4 window"></div>
+					</div></a><!--comics-->
+					<a href="#"><div class="webDev toolTip">
+						<div class="window5 window"></div>
+						<div class="window6 window"></div>
+						<div class="window7 window"></div>
+						<div class="window8 window"></div>
+					</div></a><!--webDev-->
+					<a href="about.html"><div class="about toolTip">
+						<div class="window9 window"></div>
+						<div class="window10 window"></div>
+						<div class="window11 window"></div>
+					</div></a><!--about-->
+				</div><!---hits-->
+				<div class="footer">
+					<div class="contact">
+						<a name="contact"><form action="#">
+							<div class="yourName">
+								<label for="name">Name</label>
+								<input type="text">
+							</div>
+							<div class="mail">
+								<label for="mail">E-mail</label>
+								<input type="email" placeholder="write your e-mail address">
+							</div>
+							<div class="message">
+								<label for="message">Message</label>
+								<textarea></textarea>
+							</div>
+							<input type="submit" value="Submit">
+						</form></a>
+					</div><!--contact bubble-->
+				</div>
+			</div><!--wrapper-->
+
+		</body>
+		</html>
